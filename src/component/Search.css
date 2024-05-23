@@ -1,0 +1,29 @@
+.custom-dropdown {
+    position: relative;
+    width: 200px; /* Set width as needed */
+
+  }
+  
+  .custom-dropdown-select {
+    width: 78%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #f8df8c;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+  }
+  
+  .custom-dropdown-icon {
+    position: absolute;
+    top: 50%;
+    right: 0px; /* Adjust the position of the icon as needed */
+    transform: translateY(-50%);
+    width: 15px; /* Set width of the custom icon */
+    height: 15px; /* Set height of the custom icon */
+    background: url('../assets/arrow-down.png') no-repeat center center; /* Replace with your custom icon path */
+    background-size: cover;
+  }
+  
